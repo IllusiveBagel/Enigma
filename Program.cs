@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+using Enigma.Services;
+using Enigma.Interfaces;
+
 namespace Enigma
 {
     class Program
@@ -51,6 +54,9 @@ namespace Enigma
 
             // Add Access to Generic IConfigurationRoot
             serviceCollection.AddSingleton<IConfigurationRoot>(configuration);
+
+            // Add Services
+            serviceCollection.AddSingleton<IEnigmaService, EnigmaService>();
 
             // Add App
             serviceCollection.AddTransient<App>();
