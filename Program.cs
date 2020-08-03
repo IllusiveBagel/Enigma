@@ -1,7 +1,9 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Enigma
 {
@@ -9,7 +11,37 @@ namespace Enigma
     {
         public static IConfigurationRoot configuration;
 
-        static void Main(string[] args)
+        static int Main(string[] args)
+        {
+            try
+            {
+                // Start Code
+                MainAsync(args).Wait();
+                return 0;
+            }
+            catch
+            {
+                return 1;
+            }
+        }
+
+        static async Task MainAsync(string[] args)
+        {
+            ServiceCollection ServiceCollection = new ServiceCollection();
+            ConfigureServices(ServiceCollection);
+            ServiceProvider serviceProvider = ServiceCollection.BuildServiceProvider();
+
+            try 
+            {
+                await serviceProvider.GetService<App>().Run();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
+
+        private static void ConfigureServices(IServiceCollection serviceCollection)
         {
             // Add Configuration File
             configuration = new ConfigurationBuilder()
@@ -17,7 +49,11 @@ namespace Enigma
                 .AddJsonFile("appsettings.json", false)
                 .Build();
 
-            Console.WriteLine(configuration.GetSection("test").Value);
+            // Add Access to Generic IConfigurationRoot
+            serviceCollection.AddSingleton<IConfigurationRoot>(configuration);
+
+            // Add App
+            serviceCollection.AddTransient<App>();
         }
     }
 }
