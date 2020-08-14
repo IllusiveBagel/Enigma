@@ -20,7 +20,10 @@ namespace Enigma
 
         public async Task Run()
         {
-            Console.WriteLine(_enigmaService.Encrypt(""));
+            Console.WriteLine("Please Input Text:");
+            string input = Console.ReadLine();
+            Console.WriteLine("Output:");
+            Console.WriteLine(_enigmaService.Encrypt(input.ToUpper()));
         }
     }
 }
