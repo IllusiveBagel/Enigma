@@ -64,25 +64,33 @@ namespace Enigma.Services
 
             for(int i = 0; i < input.Length; i++)
             {
-                // Replace Letter with Current Rotor Settings
-                retLetters.Add(rotSettings[input[i] - 65]);
-
-                // Move the Rotor One Position Forward
-                char[] rotSwitch = new char[26];
-
-                for (int j = 0; j < rotSettings.Count; j++)
+                if(char.IsWhiteSpace(input[i]))
                 {
-                    int index = j + 1;
+                    // Add WhiteSpace and Avoid Checking Rotor Settings
+                    retLetters.Add(input[i]);
+                }
+                else
+                {
+                    // Replace Letter with Current Rotor Settings
+                    retLetters.Add(rotSettings[input[i] - 65]);
 
-                    if(index == 26)
+                    // Move the Rotor One Position Forward
+                    char[] rotSwitch = new char[26];
+
+                    for (int j = 0; j < rotSettings.Count; j++)
                     {
-                        index = 0;
+                        int index = j + 1;
+
+                        if(index == 26)
+                        {
+                            index = 0;
+                        }
+
+                        rotSwitch[index] = rotSettings[j];
                     }
 
-                    rotSwitch[index] = rotSettings[j];
+                    rotSettings = rotSwitch.ToList();
                 }
-
-                rotSettings = rotSwitch.ToList();
             }
 
             return retLetters.ToArray();
