@@ -51,7 +51,7 @@ namespace Enigma.Services
             return new string(rotOne);
         }
 
-        private char[] RotorOne(char[] input)
+        public char[] RotorOne(char[] input)
         {
             List<char> rotSettings = new List<char>();
             List<char> retLetters = new List<char>();

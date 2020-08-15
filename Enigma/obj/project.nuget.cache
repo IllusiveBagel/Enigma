@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "ucywL0iq2I6r170mP9PqSdEEaay8bRnzuWqfSrmMU0CorLbgwAmM8EWeTlfaEUAv9btKtygCM+kvQH41qeP58w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.6\\microsoft.extensions.configuration.fileextensions.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.6\\microsoft.extensions.configuration.json.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.6\\microsoft.extensions.fileproviders.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.6\\microsoft.extensions.fileproviders.physical.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.6\\microsoft.extensions.filesystemglobbing.3.1.6.nupkg.sha512",
+    "C:\\Users\\hawke\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512"
+  ],
+  "logs": []
+}
