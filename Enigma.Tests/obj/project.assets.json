@@ -4010,11 +4010,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\Enigma.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\Enigma.Tests.csproj",
       "projectName": "Enigma.Tests",
-      "projectPath": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\Enigma.Tests.csproj",
+      "projectPath": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\Enigma.Tests.csproj",
       "packagesPath": "C:\\Users\\hawke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\obj\\",
+      "outputPath": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hawke\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4030,8 +4030,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj": {
-              "projectPath": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj"
+            "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj": {
+              "projectPath": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj"
             }
           }
         }

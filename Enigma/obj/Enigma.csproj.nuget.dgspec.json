@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj": {}
+    "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj": {
+    "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj",
+        "projectUniqueName": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj",
         "projectName": "Enigma",
-        "projectPath": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj",
+        "projectPath": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\Enigma.csproj",
         "packagesPath": "C:\\Users\\hawke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\obj\\",
+        "outputPath": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hawke\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IosCAIi1gpB6WpOVArMFXLhAnvg4ONM/vDtlezArVVT5wIjWb3pqBb7sMBTo2T4HH7zxEvDY2rW6Heyj0fkOlQ==",
+  "dgSpecHash": "iG+NAsU5G+dDBNehH3vSFnvuZrT4x9XmJc9z1k2YfMmRBI70ICm3zjRXuqmJHaWdayCpaRdKpxwP+PGGMFrccQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\Enigma.Tests.csproj",
+  "projectFilePath": "c:\\Users\\hawke\\Documents\\Git\\Enigma\\Enigma.Tests\\Enigma.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hawke\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\hawke\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
