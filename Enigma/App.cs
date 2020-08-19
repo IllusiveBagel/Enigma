@@ -23,7 +23,17 @@ namespace Enigma
             Console.WriteLine("Please Input Text:");
             string input = Console.ReadLine();
             Console.WriteLine("Output:");
-            Console.WriteLine(_enigmaService.Encrypt(input.ToUpper()));
+
+            try
+            {
+                Console.WriteLine(_enigmaService.Encrypt(input.ToUpper()));
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+
+            Console.ReadKey();
         }
     }
 }
