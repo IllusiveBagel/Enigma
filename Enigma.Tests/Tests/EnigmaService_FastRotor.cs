@@ -4,10 +4,10 @@ using Enigma.Interfaces;
 
 namespace Enigma.Tests
 {
-    public class EnigmaService_RotorOne
+    public class EnigmaService_FastRotor
     {
         private readonly IEnigmaService _enigmaService;
-        public EnigmaService_RotorOne(IEnigmaService enigmaService)
+        public EnigmaService_FastRotor(IEnigmaService enigmaService)
         {
             _enigmaService = enigmaService;
         }
@@ -20,7 +20,7 @@ namespace Enigma.Tests
             char[] expected = "PFXX".ToCharArray();
 
             //When
-            char[] output = _enigmaService.RotorOne(input);
+            char[] output = _enigmaService.FastRotor(input);
             
             //Then
             Assert.Equal(expected, output);
@@ -34,7 +34,7 @@ namespace Enigma.Tests
             char[] expected = "PFXX VJ".ToCharArray();
 
             //When
-            char[] output = _enigmaService.RotorOne(input);
+            char[] output = _enigmaService.FastRotor(input);
             
             //Then
             Assert.Equal(expected, output);

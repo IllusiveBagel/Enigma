@@ -46,12 +46,14 @@ namespace Enigma.Services
                 }
             }
 
-            char[] rotOne = RotorOne(ret);
+            char[] rotOne = FastRotor(ret);
 
             return new string(rotOne);
         }
 
-        public char[] RotorOne(char[] input)
+        // Fast Rotor
+        // Changes Settings with Every Key Press
+        public char[] FastRotor(char[] input)
         {
             List<char> rotSettings = new List<char>();
             List<char> retLetters = new List<char>();
