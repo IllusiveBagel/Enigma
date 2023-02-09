@@ -1,0 +1,51 @@
+{
+    "Enigma-I": {
+        "ETW": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "rotors": [
+            {
+                "name": "I",
+                "settings": "EKMFLGDQVZNTOWYHXUSPAIBRCJ",
+                "notch": "Y",
+                "turnover": "Q"
+            },
+            {
+                "name": "II",
+                "settings": "AJDKSIRUXBLHWTMCQGZNPYFVOE",
+                "notch": "M",
+                "turnover": "E"
+            },
+            {
+                "name": "III",
+                "settings": "BDFHJLCPRTXVZNYEIWGAKMUSQO",
+                "notch": "D",
+                "turnover": "V"
+            },
+            {
+                "name": "IV",
+                "settings": "ESOVPZJAYQUIRHXLNFTGKDCMWB",
+                "notch": "R",
+                "turnover": "H"
+            },
+            {
+                "name": "V",
+                "settings": "VZBRGITYUPSDNHLXAWMJQOFECK",
+                "notch": "H",
+                "turnover": "Z"
+            }
+        ],
+        "reflectors": [
+            {
+                "name": "UKW-A",
+                "settings": "EJMZALYXVBWFCRQUONTSPIKHGD"
+            },
+            {
+                "name": "UKW-B",
+                "settings": "YRUHQSLDPXNGOKMIEBFZCWVJAT"
+            },
+            {
+                "name": "UKW-C",
+                "settings": "FVPJIAOYEDRZXWGCTKUQSBNMHL"
+            }
+        ]
+    }
+}
